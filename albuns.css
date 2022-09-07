@@ -3,20 +3,24 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .div-nome-banda {
     width: 700px;
     height: 70px;
-    background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
 }
 
 .div-albuns-estudio {
-    width: 900px;
+    width: 100%;
     height: 60px;
     background-color: black;
     color: rgb(255, 255, 255);
@@ -26,12 +30,13 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 .albuns-container {
     width: 90%;
-    background-color: rgba(99, 99, 99, 0.541);
+    background-color: rgb(255, 255, 255);
     margin: auto;
 }
 
@@ -56,4 +61,6 @@
 .albuns-remix {
     display: flex;
     justify-content: space-evenly;
+    width: 600px;
+    margin: auto;
 }
