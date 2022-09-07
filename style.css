@@ -49,12 +49,14 @@
 
 .div-footer {
     width: 100%;
-    height: 50px;
+    height: 300px;
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background: url(img/linkin-park-membros.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
 }
 
 .section-index {
@@ -69,8 +71,6 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 100px;
     text-align: center;
-
-
 }
 
 
@@ -82,7 +82,7 @@
 }
 
 .div-integrantes > a {
-    color: black;
+    color: rgb(250, 250, 250);
 }
 
 .menu > a:hover {
@@ -94,22 +94,25 @@
     width: 300px;
 }
 
-.header-integrantes {
+.faixa-titulo-sessao {
     width: 100%;
     height: 70px;
     background-color: black;
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.header-integrantes > h2 {
-    width: 400px;
+.faixa-titulo-sessao > img {
+    width: 50px;
+}
+
+.faixa-titulo-sessao > h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
-    font-size: 35px;
-    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
 }
 
 
@@ -172,15 +175,16 @@
 .container-integrantes {
     width: 100%;
     height: 300px;
-    background-color: rgb(70, 70, 70);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    background: url(img/living_things_wallpaper.jpg) no-repeat;
+    background-size: cover;
 }
 
 .container-integrantes img {
-    width: 200px;
-    border-radius: 50%;
+    width: 150px;
+    border-radius: 10%;
 }
 
 .container-integrantes div {
@@ -190,12 +194,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.container-integrantes h3 {
-    margin-top: 20px;
-}
-
-
 /*----------contatos----------*/
 
 .redes-da-banda {
