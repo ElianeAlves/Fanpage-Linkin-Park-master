@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-nome-banda {
+    width: 700px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div-albuns-estudio {
+    width: 900px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.albuns-container {
+    width: 90%;
+    background-color: rgba(187, 158, 158, 0.541);
+    margin: auto;
+    display: flex;
+}
+
+.albuns-estudio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.albuns-estudio > img {
+    width: 200px;
+    height: 200px;
+}
