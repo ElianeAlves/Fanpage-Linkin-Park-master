@@ -19,7 +19,7 @@
     width: 900px;
     height: 60px;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: auto;
     display: flex;
     align-items: center;
@@ -31,9 +31,8 @@
 
 .albuns-container {
     width: 90%;
-    background-color: rgba(187, 158, 158, 0.541);
+    background-color: rgba(99, 99, 99, 0.541);
     margin: auto;
-    display: flex;
 }
 
 .albuns-estudio {
@@ -47,4 +46,9 @@
 .albuns-estudio > img {
     width: 200px;
     height: 200px;
+}
+
+
+.divisoes-albuns > .albuns-estudio {
+    margin-bottom: 30px;
 }
