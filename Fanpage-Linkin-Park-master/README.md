@@ -1,2 +1,0 @@
-# Fanpage-Linkin-Park
-~~
