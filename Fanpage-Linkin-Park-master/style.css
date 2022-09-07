@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.div-header > a > img {
+    width: 130px;
+}
+
+.menu {
+    display: flex;
+    width: 400px;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu>a>li {
+    list-style: none;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    background-color: aqua;
+    padding-top: 100px;
+}
+
+
+.div-footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-index {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*----------------------------------*/
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > a:hover {
+    border: 2px solid white;
+}
+
+.content-album {
+    background-color: aqua;
+    width: 300px;
+}
+
+.header-h2 {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-h2 > h2 {
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+
+/*--------------------------HTML ALBUNS---------------------*/
+
+.content-section {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-album2 {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: 35px;
+    align-items: flex-end;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.album > h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista-musicas {
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 50px;
+    border: 1px solid white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lista-musicas a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+
+/*-----------------LINHA INTEGRANTES---------*/
+
+.container-integrantes {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-integrantes img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container-integrantes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.container-integrantes h3 {
+    margin-top: 20px;
+}
